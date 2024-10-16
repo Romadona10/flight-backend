@@ -1,0 +1,22 @@
+{
+  "name": "flights",
+  "version": "1.0.0",
+  "main": "airports.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "axios": "^1.7.3",
+    "body-parser": "^1.20.2",
+    "bson": "^6.8.0",
+    "cors": "^2.8.5",
+    "csv-parser": "^3.0.0",
+    "express": "^4.19.2",
+    "mongoose": "^8.5.2",
+    "node-fetch": "^3.3.2"
+  }
+}

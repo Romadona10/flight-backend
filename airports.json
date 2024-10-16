@@ -1,0 +1,16 @@
+[
+    {
+      "name": "Los Angeles International Airport",
+      "city": "Los Angeles",
+      "country": "USA",
+      "code": "LAX"
+    },
+    {
+      "name": "John F. Kennedy International Airport",
+      "city": "New York",
+      "country": "USA",
+      "code": "JFK"
+    }
+    
+  ]
+  
