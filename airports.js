@@ -7,7 +7,12 @@ const app = express();
 // Middleware
 app.use(express.json());  // Use Express's built-in JSON parser
 app.use(express.urlencoded({ extended: true }));  // Parse URL-encoded data
-app.use(cors({ origin: 'http://localhost:4200' })); // or your frontend's URL
+app.use(cors({
+  origin: ['http://localhost:4200', 'https://romadona10.github.io'], // Add your GitHub Pages URL here
+  methods: ['GET', 'POST', 'PUT', 'DELETE'],
+  credentials: true
+}));
+
 // app.use(cors({ origin: '*' }));
 
 // app.use(cors());
